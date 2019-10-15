@@ -11,14 +11,14 @@
  reload_dunst() {
     pkill dunst
     dunst \
-	-frame_width 3 \
-	-frame_color "${color7}" \
-        -lb "${color0}" \
-        -nb "${color0}" \
-        -cb "${color0}" \
-        -lf "${color7}" \
-        -cf "${color7}" \
-        -nf "${color7}" &
+	-frame_width 0 \
+	-frame_color "${color2}" \
+        -lb "${color7}" \
+        -nb "${color7}" \
+        -cb "${color7}" \
+        -lf "${color2}" \
+        -cf "${color2}" \
+        -nf "${color2}" &
 }
 
 reload_dunst
